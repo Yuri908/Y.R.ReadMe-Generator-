@@ -53,7 +53,7 @@ const questions = [
       if (usageInput) {
         return true;
       } else {
-        console.log('Please Provide instructions and examples for use!');
+        console.log('Please provide instructions and examples for use!');
         return false;
       }
     }
@@ -73,12 +73,12 @@ const questions = [
   {
     type: 'input',
     name: 'github',
-    message: 'Enter your GitHub Username (Required)',
+    message: 'Enter your GitHub link(Required)',
     validate: githubInput => {
       if (githubInput) {
         return true;
       } else {
-        console.log('Please enter your GitHub username!');
+        console.log('Please enter your GitHub link!');
         return false;
       }
     }

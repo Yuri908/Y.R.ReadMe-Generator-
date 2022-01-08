@@ -1,6 +1,6 @@
 # ReadMe Generator
     ## Description
-    Generates a Readme.md by command line
+    Generating a ReadMe file using NODE.js
 
     ## Table of Contents
     - [Installation](#install)
@@ -10,20 +10,16 @@
     - [Github](#github)
 
     ## Installation
-    it simply answers some question
+    Its simply and easy, it only takes you to answer some prompt questions
 
     ## Usage
-    easy easy
+    as I said before its simple and easy
 
     ## Contributors
-    * Item 1
-    * Item 2
-    * Item 3
-    * Item 4
-    Evan, Dustin, Mario, mE
+    Evan github.com/Evanhardek
 
     ## Github
-    YURI908
+    Yuri908
 
     ## License
-    ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+    This application is protected under the ![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg) license.

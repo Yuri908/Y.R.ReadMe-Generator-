@@ -13,12 +13,13 @@ function renderLicenseBadge(license) {
   if (license == "APACHE"){
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   }
-//     return "";
-// }
+    return "";
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
     ## Description
     ${data.description}
 
