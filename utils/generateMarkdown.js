@@ -19,16 +19,17 @@ function renderLicenseBadge(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+    ${renderLicenseBadge(data.license)}
 
     ## Description
     ${data.description}
 
     ## Table of Contents
-    - * [Installation](#install)
-    - * [Usage](#usage)
-    - * [Credits](#credits)
-    - * [License](#license)
-    - * [Github](#github)
+    * [Installation](#install)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
+    * [Contact](#contact)
 
     ## Installation
     ${data.install}
@@ -37,10 +38,12 @@ function generateMarkdown(data) {
     ${data.usage}
 
     ## Contributors
-    : ${data.credits}
+    ${data.credits}
 
-    ## Github
+    ## Contact
+    If you have comments or concerns feel free to contact me via github or email:
     ${data.github}
+    ${data.email}
 
     ## License
     This application is protected under the ${renderLicenseBadge(data.license)} license.

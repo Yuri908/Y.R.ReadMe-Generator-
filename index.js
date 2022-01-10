@@ -84,6 +84,19 @@ const questions = [
     }
   },
   {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your Email(Required)',
+    validate: emailInput => {
+      if (emailInput) {
+        return true;
+      } else {
+        console.log('Please enter your Email!');
+        return false;
+      }
+    }
+  },
+  {
     type: 'list',
     name: 'license',
     message: 'Select a desire license (Required)',
