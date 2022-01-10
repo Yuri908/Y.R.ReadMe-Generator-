@@ -4,6 +4,8 @@
     ## Description
     This is a command-line application that runs with Node.js it dynamically generates a README file based on your input. 
 
+    ![ReadMe sample](./images/sample.jpeg)
+
     ## Table of Contents
     * [Installation](#install)
     * [Usage](#usage)
