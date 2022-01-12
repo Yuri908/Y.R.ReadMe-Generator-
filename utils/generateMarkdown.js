@@ -27,7 +27,7 @@ function generateMarkdown(data) {
     ## Table of Contents
     * [Installation](#install)
     * [Usage](#usage)
-    * [Credits](#credits)
+    * [Contributors](#contributors)
     * [License](#license)
     * [Contact](#contact)
 
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
     ${data.usage}
 
     ## Contributors
-    ${data.credits}
+    ${data.contributors}
 
     ## Contact
     If you have comments or concerns feel free to contact me via github or email:

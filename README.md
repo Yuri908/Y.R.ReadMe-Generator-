@@ -1,15 +1,13 @@
 # ReadMe Generator
-    ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+    ![GitHub license](https://img.shields.io/badge/license-GNU-blue.svg)
 
     ## Description
     This is a command-line application that runs with Node.js it dynamically generates a README file based on your input. 
 
-    ![ReadMe sample](./images/sample.jpeg)
-
     ## Table of Contents
     * [Installation](#install)
     * [Usage](#usage)
-    * [Credits](#credits)
+    * [Contributors](#contributors)
     * [License](#license)
     * [Contact](#contact)
 
@@ -25,7 +23,7 @@
     ## Contact
     If you have comments or concerns feel free to contact me via github or email:
     https://github.com/Yuri908
-    yuri101@icloud.com
+    yuri_101@icloud.com
 
     ## License
-    This application is protected under the ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) license.
+    This application is protected under the ![GitHub license](https://img.shields.io/badge/license-GNU-blue.svg) license.

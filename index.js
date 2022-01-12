@@ -60,15 +60,15 @@ const questions = [
   },
   {
     type: 'confirm',
-    name: 'confirmCredits',
+    name: 'confirmContributors',
     message: 'Would you like to add a list of your collaborators, if any, with links to their GitHub profiles?',
     default: true
   },
   {
     type: 'input',
-    name: 'credits',
+    name: 'contributors',
     message: 'List your collaborator, with links to their GitHub profiles.:',
-    when: ({ confirmCredits }) => confirmCredits
+    when: ({ confirmContributors }) => confirmContributors
   },
   {
     type: 'input',
